@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/static/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Optional: Include Bootstrap JS if you want to use Bootstrap's JavaScript features -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .registration-form {
+            max-width: 400px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .form-group label {
+            color: #495057;
+        }
+
+        .btn-submit {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        /* Adjust the height of the textarea to match input fields */
+        .form-group textarea {
+            height: 38px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <form class="registration-form bg-light p-4 rounded">
+            <h2 class="form-header">Verify reteiler</h2>
+
+
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" required>
+            </div>
+           
+
+
+            <button type="submit" class="btn btn-submit btn-block">Check</button>
+        </form>
+    </div>
+
+</body>
+</html>
